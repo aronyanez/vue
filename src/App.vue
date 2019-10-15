@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <!-- <ejemplos /> -->
-    <!-- <card-list /> -->
-    <show-n> </show-n>
+    <card-list />
+    <!-- <show-n> </show-n> -->
   </div>
 </template>
 

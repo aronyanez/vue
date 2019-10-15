@@ -1,11 +1,18 @@
 <template>
   <div class="card">
-     Card
+     Card {{id}}
   </div>
 </template>
 
 <script>
 export default {
+  props:{
+    id:{
+      type: Number,
+      required: false,
+      default: 10
+    }
+  },
   data() {
     return {
     
