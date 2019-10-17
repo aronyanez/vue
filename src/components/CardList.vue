@@ -14,7 +14,7 @@
 
     <!-- <card-twitter/> -->
 
-    <custom-select  :items="paises"/>
+    <custom-select  :items="paises" @cambiarvalor="cambiarDefault"/>
     <custom-select title="Estado" :items="estados"/>
     <custom-select title="Municipio"/>
   </div>
@@ -58,6 +58,9 @@ export default {
   },
   mounted() {
      console.log("montado"); 
+  },
+
+  methods: {
   },
 };
 </script>
